@@ -1,12 +1,16 @@
  "use strict"
  
- const address = {
-    street: "nairobi",
-    city: "nairobi",
-    country: "kenya"
+ const person = {
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 30,
+    city: 'New York',
+  };
 
- }
- const {town="kibra",street, city, country:ctr}= address;
- 
 
-console.log(city, ctr, town)
+ function printPersonInfo({ firstName, lastName, age, city }) {
+    console.log(`${firstName} ${lastName}, ${age} years old. from ${city}`);
+  }
+  
+  printPersonInfo(person); // 'John Doe, 30 years old.'
+  
