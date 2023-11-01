@@ -1,16 +1,7 @@
- "use strict"
- 
- const person = {
-    firstName: 'John',
-    lastName: 'Doe',
-    age: 30,
-    city: 'New York',
-  };
+const first = [1,3,5,6];
+const second = [4,6,9,2];
 
-
- function printPersonInfo({ firstName, lastName, age, city }) {
-    console.log(`${firstName} ${lastName}, ${age} years old. from ${city}`);
-  }
-  
-  printPersonInfo(person); // 'John Doe, 30 years old.'
-  
+const combined = first.concat(second)
+console.log (combined)
+ const combine2 =[...first, ...second];
+ console.log(combine2)
