@@ -1,10 +1,18 @@
-
-function welcome() {
-   for (let i=0; i<6; i++){
-    document.write(i)
-   }
-   
-console.log(i)
+"use strict";
+const person = {
+    name:"aaron",
+    walk(){
+        
+        console.log(this)
+    }
+    
 }
-
-welcome()
+console.log(this)
+person.walk()
+//console.lo
+function myFunction() {
+    x = 10; // This will throw an error in strict mode because 'x' is not declared.
+    console.log(x)  
+}
+  
+  myFunction();
