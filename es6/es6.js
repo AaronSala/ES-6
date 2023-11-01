@@ -1,10 +1,6 @@
- "use strict"
- let jobs =[
-    {id:1, isactive:true},
-    {id:2, isactive:true},
-    {id:3, isactive:false}
+ //"use strict"
+ let colors =["black", "green","red","yellow"
  ]
  
-
- const active = jobs.filter(job=>job.isactive)
-console.log(active)
+const colls= colors.map(color=>color)
+console.log(colls)
