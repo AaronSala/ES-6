@@ -1,7 +1,14 @@
-const first = [1,3,5,6];
-const second = [4,6,9,2];
 
-const combined = first.concat(second)
-console.log (combined)
- const combine2 =[...first, ...second];
- console.log(combine2)
+
+class Person {
+    constructor (name, age){
+this.name=name;
+this.age=age;
+    }
+     walk (){
+        console.log("walk");
+    }
+}
+
+const person =new Person("Sala", 35)
+console.log(person.name+" is "+person.age+ " years old" )
