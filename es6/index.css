@@ -1,0 +1,16 @@
+.flexbox-container{
+    display: flex;
+    background-color: yellow;
+    width: 100%;
+    height: 32vh;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+}
+.flexbox-item{
+    width: 10rem;
+    height: 30vh;
+    border: 2px solid black;
+    background-color: azure;
+    text-align: center;
+}
