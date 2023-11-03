@@ -1,14 +1,21 @@
-
-
-class Person {
-    constructor (name, age){
-this.name=name;
-this.age=age;
-    }
-     walk (){
-        console.log("walk");
-    }
+const person = {
+    name:"Aaron",
+    age:30,
+    school:"kitise",
+    sex:"male",
+    location:"kyambeke"
+}
+const person2 = {
+    name:"Sala",
+    
+    sex:"male",
+    location:"ndolo"
 }
 
-const person =new Person("Sala", 35)
-console.log(person.name+" is "+person.age+ " years old" )
+const person3= {...person, ...person2} 
+
+console.log(person3);
+
+
+
+
